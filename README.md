@@ -1,6 +1,6 @@
-# v3
+# teaser
 
-V3
+Teaser site
 
 ## Project Dependencies
 
@@ -8,15 +8,14 @@ This project is built with:
 
 1. [NodeJS](http://nodejs.org)
 2. [Gatsby](https://www.gatsbyjs.org/)
-3. [Netlify CMS](https://www.netlifycms.org/)
 
 ## Running the Project
 
 **Development Mode**
 
 ```sh
-$ git clone https://github.com/asucis/v3.git
-$ cd blog
+$ git clone https://github.com/asucis/teaser.git
+$ cd teaser
 $ yarn
 $ gatsby develop
 ```
@@ -28,8 +27,3 @@ Starts the site at `http://localhost:8000`!
 ```
 $ gatsby serve
 ```
-
-## Inspiration
-
-1. [Gastby Netlify CMS Starter](https://github.com/netlify-templates/gatsby-starter-netlify-cms)
-2. [Gatsby Hello World](https://github.com/gatsbyjs/gatsby-starter-hello-world)
