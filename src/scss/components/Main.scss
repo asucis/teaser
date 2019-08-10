@@ -1,0 +1,50 @@
+main {
+  grid-area: content;
+  margin: 0 auto;
+  max-width: 768px;
+  padding: 0 1rem;
+
+  .social-links {
+    display: inline-block;
+
+    .icon {
+      display: inline-block;
+      font-size: 1.5rem;
+      background-color: $dark-primary;
+      border-radius: 25px;
+      min-width: 58px;
+      margin: 0 auto;
+      text-align: center;
+      padding-top: 2px;
+
+      /* unvisited link */
+      a:link {
+        color: $light-primary;
+      }
+
+      /* visited link */
+      a:visited {
+        color: $light-primary;
+      }
+
+      /* mouse over link */
+      a:hover {
+        color: $white;
+      }
+
+      /* selected link */
+      a:active {
+        color: blue;
+      }
+
+      &:not(:last-child) {
+        margin-right: 10px;
+      }
+    }
+  }
+
+  .memes-button {
+    margin: 48px 0 0;
+    display: block;
+  }
+}

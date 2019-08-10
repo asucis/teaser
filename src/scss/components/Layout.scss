@@ -1,0 +1,31 @@
+.layout {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "content"
+    "footer";
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+  grid-gap: 10px;
+  min-height: 100%;
+  .toggle-container {
+    margin-top: 20px;
+    text-align: end;
+    .toggle.react-toggle--checked .react-toggle-track {
+      background-color: $primary;
+    }
+
+    p {
+      display: inline-block;
+      margin: 0;
+      padding-left: 4px;
+      vertical-align: top;
+    }
+  }
+}
+
+.dark-mode {
+  @extend .layout;
+  background-color: #121212;
+  color: white;
+}

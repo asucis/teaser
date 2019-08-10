@@ -1,0 +1,12 @@
+footer {
+  grid-area: footer;
+  background-color: $light-primary;
+  color: $secondary-text;
+  padding: 1.45rem 1.0875rem;
+  font-size: 0.75rem;
+  text-align: center;
+
+  &.dark {
+    background-color: #424242;
+  }
+}
